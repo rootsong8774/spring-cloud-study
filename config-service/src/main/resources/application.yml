@@ -19,8 +19,7 @@ spring:
         git:
 #          uri: file:///C:\\Users\\User\\Work\\git-local-repo
           uri: https://github.com/rootsong8774/spring-cloud-config.git
-#          username: rootsong8774
-#          password: "!s64066406"
+
 management:
   endpoints:
     web:
