@@ -30,6 +30,7 @@ greeting:
 logging:
   level:
     com.example.userservice: DEBUG
+
 management:
   endpoints:
     web:
