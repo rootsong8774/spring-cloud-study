@@ -1,5 +1,6 @@
 package com.example.userservice;
 
+import com.example.userservice.error.FeignErrorDecoder;
 import feign.Logger;
 import feign.Logger.Level;
 import org.springframework.boot.SpringApplication;
@@ -37,4 +38,8 @@ public class UserServiceApplication {
         return Level.FULL;
     }
     
+//    @Bean
+//    public FeignErrorDecoder getFeignErrorDecoder() {
+//        return new FeignErrorDecoder();
+//    }
 }
